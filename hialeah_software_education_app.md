@@ -8,7 +8,7 @@ jobs:
 
       - uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.24.0'
+          flutter-version: '3.27.0'
 
       - name: Create Flutter project
         run: flutter create --org com.marley --project-name marley_tutor marley_app
