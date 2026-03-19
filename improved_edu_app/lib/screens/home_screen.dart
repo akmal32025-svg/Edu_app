@@ -76,7 +76,7 @@ class _HomeScreenState extends State<HomeScreen> {
         background: Container(
           decoration: const BoxDecoration(
             gradient: LinearGradient(
-              colors: [AppTheme.primary, Color(0xFF9C8FFF)],
+              colors: [AppTheme.primary, Color(0xFF4A90E2)],
               begin: Alignment.topLeft,
               end: Alignment.bottomRight,
             ),

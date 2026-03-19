@@ -1,25 +1,25 @@
 import 'package:flutter/material.dart';
 
 class AppTheme {
-  static const Color primary = Color(0xFF6C63FF);
-  static const Color secondary = Color(0xFF03DAC6);
-  static const Color accent = Color(0xFFFF6584);
-  static const Color background = Color(0xFFF8F9FE);
+  static const Color primary = Color(0xFF2563EB);
+  static const Color secondary = Color(0xFF059669);
+  static const Color accent = Color(0xFFDC2626);
+  static const Color background = Color(0xFFF8FAFC);
   static const Color surface = Colors.white;
-  static const Color textPrimary = Color(0xFF1A1A2E);
-  static const Color textSecondary = Color(0xFF6B7280);
-  static const Color success = Color(0xFF4CAF50);
-  static const Color warning = Color(0xFFFFC107);
-  static const Color error = Color(0xFFE53935);
+  static const Color textPrimary = Color(0xFF1E293B);
+  static const Color textSecondary = Color(0xFF64748B);
+  static const Color success = Color(0xFF16A34A);
+  static const Color warning = Color(0xFFF59E0B);
+  static const Color error = Color(0xFFFB7185);
 
   static const Map<String, Color> categoryColors = {
-    'برمجة': Color(0xFF6C63FF),
-    'تصميم': Color(0xFFFF6584),
-    'رياضيات': Color(0xFF43A047),
-    'لغات': Color(0xFFFF9800),
-    'علوم': Color(0xFF00BCD4),
-    'تاريخ': Color(0xFF795548),
-    'الكل': Color(0xFF6C63FF),
+    'برمجة': Color(0xFF2563EB),
+    'تصميم': Color(0xFFEC4899),
+    'رياضيات': Color(0xFF059669),
+    'لغات': Color(0xFFF59E0B),
+    'علوم': Color(0xFF0EA5E9),
+    'تاريخ': Color(0xFF8B5A2B),
+    'الكل': Color(0xFF2563EB),
   };
 
   static Color categoryColor(String cat) =>
